@@ -1,0 +1,17 @@
+# ninja log v5
+2288	2460	7274822463440302	ui.exe	7c3eae042c3b8eef
+472	2279	7274547047427548	CMakeFiles/ui.dir/main.cpp.obj	59c43b245fd96eb8
+9	126	7274822440107575	ui_autogen/timestamp	ae8edfabc30f7312
+9	126	7274822440107575	ui_autogen/mocs_compilation.cpp	ae8edfabc30f7312
+136	2287	7274822461753616	CMakeFiles/ui.dir/calculator.cpp.obj	17fa0ed2b1315fc9
+469	2206	7274547046695993	CMakeFiles/ui.dir/ui_autogen/mocs_compilation.cpp.obj	567f956809dac909
+88	663	7275332958430148	build.ninja	4a62b13e254f9fa4
+5	62	0	D:/myFiles/Qt Creator/simple-calculator/cmake-build-debug/CMakeFiles/cmake.verify_globs	50f82a1458f67545
+7	542	7275333169532695	ui_autogen/timestamp	f0888edba99e18b4
+7	542	7275333169532695	ui_autogen/mocs_compilation.cpp	f0888edba99e18b4
+7	542	7275333169532695	D:/myFiles/Qt Creator/simple-calculator/cmake-build-debug/ui_autogen/timestamp	f0888edba99e18b4
+7	542	7275333169532695	D:/myFiles/Qt Creator/simple-calculator/cmake-build-debug/ui_autogen/mocs_compilation.cpp	f0888edba99e18b4
+542	2774	7275333192394256	CMakeFiles/ui.dir/ui_autogen/mocs_compilation.cpp.obj	9ce6b846eecc9c18
+546	2940	7275333194057386	CMakeFiles/ui.dir/main.cpp.obj	601baea56a7c804d
+549	3221	7275333196814139	CMakeFiles/ui.dir/calculator.cpp.obj	a4d34feca02c0014
+3221	3392	7275333198535000	ui.exe	7c3eae042c3b8eef

@@ -1,0 +1,9 @@
+D:/myFiles/Qt Creator/ui/cmake-build-release/CMakeFiles/ui.dir
+D:/myFiles/Qt Creator/ui/cmake-build-release/CMakeFiles/edit_cache.dir
+D:/myFiles/Qt Creator/ui/cmake-build-release/CMakeFiles/rebuild_cache.dir
+D:/myFiles/Qt Creator/ui/cmake-build-release/CMakeFiles/list_install_components.dir
+D:/myFiles/Qt Creator/ui/cmake-build-release/CMakeFiles/install.dir
+D:/myFiles/Qt Creator/ui/cmake-build-release/CMakeFiles/install/local.dir
+D:/myFiles/Qt Creator/ui/cmake-build-release/CMakeFiles/install/strip.dir
+D:/myFiles/Qt Creator/ui/cmake-build-release/CMakeFiles/ui_autogen_timestamp_deps.dir
+D:/myFiles/Qt Creator/ui/cmake-build-release/CMakeFiles/ui_autogen.dir
