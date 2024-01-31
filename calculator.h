@@ -19,6 +19,7 @@ public:
 
 private:
     Ui::Calculator *ui;
+    void keyPressEvent(QKeyEvent *event) override;
 
 private slots:
     void NumPressed();
@@ -29,5 +30,7 @@ private slots:
     void EqualButton();
     void ChangeSign();
     void ClearButton();
+    void PressNum(QString &buttonValue);
+    void PressMathOp(QString &buttonValue);
 };
 #endif // CALCULATOR_H

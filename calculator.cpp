@@ -3,6 +3,7 @@
 #include "./ui_calculator.h"
 #include <cmath>
 #include <iostream>
+#include <QKeyEvent>
 
 using namespace std;
 
@@ -69,6 +70,54 @@ bool isPrime(const int number) {
         }
     }
     return true;
+}
+
+void Calculator::keyPressEvent(QKeyEvent *event) {
+    if (event->key() == Qt::Key_0 ||
+        event->key() == Qt::Key_1 ||
+        event->key() == Qt::Key_2 ||
+        event->key() == Qt::Key_3 ||
+        event->key() == Qt::Key_4 ||
+        event->key() == Qt::Key_5 ||
+        event->key() == Qt::Key_6 ||
+        event->key() == Qt::Key_7 ||
+        event->key() == Qt::Key_8 ||
+        event->key() == Qt::Key_9) {
+        QString numValue = event->text();
+        PressNum(numValue);
+    } else if (event->key() == Qt::Key_Plus) {
+        QString opValue = "1";
+        PressMathOp(opValue);
+    } else if (event->key() == Qt::Key_Minus) {
+        QString opValue = "2";
+        PressMathOp(opValue);
+    } else if (event->key() == Qt::Key_Slash) {
+        QString opValue = "3";
+        PressMathOp(opValue);
+    } else if (event->key() == Qt::Key_Asterisk) {
+        QString opValue = "4";
+        PressMathOp(opValue);
+    } else if (event->key() == Qt::Key_Delete || event->key() == Qt::Key_C || event->key() == Qt::Key_Backspace) {
+        ClearButton();
+    } else if (event->key() == Qt::Key_Period) {
+        PointPressed();
+    } else if (event->key() == Qt::Key_Equal || event->key() == Qt::Key_Enter || event->key() == Qt::Key_Return) {
+        EqualButton();
+    }
+}
+
+void Calculator::PressNum(QString &buttonValue) {
+    QPushButton *button = findChild<QPushButton *>(QString("Button") + buttonValue);
+    if (button) {
+        button->click();
+    }
+}
+
+void Calculator::PressMathOp(QString &buttonValue) {
+    QPushButton *button = findChild<QPushButton *>(QString("SMath") + buttonValue);
+    if (button) {
+        button->click();
+    }
 }
 
 void Calculator::NumPressed() {
